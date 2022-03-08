@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-class location:
-=======
 class Location:
->>>>>>> ramdon
     def __init__(self):
         self.location_wandering = {}
         

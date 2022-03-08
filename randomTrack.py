@@ -1,13 +1,7 @@
-<<<<<<< HEAD
-from wandering import ComunWandering
-from track import Track
-from location import location
-=======
 from turtle import  distance, title
 from wandering import ComunWandering, Wandering
 from track import Track
 from location import Location
->>>>>>> ramdon
 
 from bokeh.plotting import figure, output_file, show
 
@@ -19,8 +13,6 @@ def walking(location, wandering, steps):
         
     return beginning.distance(location.get_location(wandering))
 
-<<<<<<< HEAD
-=======
 def simulate_walk(steps, number_attempts, type_wandering):
     Wandering = type_wandering(name='Alirio')
     origen = Track(0,0)
@@ -57,4 +49,3 @@ if __name__ == '__main__':
     distances_walk = [10, 100, 1000, 1000]
     number_attempts = 100
     main(distances_walk, number_attempts, ComunWandering)
->>>>>>> ramdon
